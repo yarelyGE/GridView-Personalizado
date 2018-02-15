@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ejemplo08GridView</string>
+    <string name="howmanyimages">7</string>
+    <string name="imageName">sample_</string>
+    <string-array name="images_id">
+        <item>sample_0</item>
+        <item>sample_1</item>
+        <item>sample_2</item>
+        <item>sample_3</item>
+        <item>sample_4</item>
+        <item>sample_5</item>
+        <item>sample_6</item>
+        <item>sample_7</item>
+    </string-array>
+</resources>
