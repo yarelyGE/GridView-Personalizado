@@ -37,7 +37,7 @@ public class App extends AppCompatActivity {
                 Bitmap imagen = ((item)fhater).getImage();
                 String nombre = ((item)fhater).getName();
 
-                displayDialog(imagen, nombre);
+                ventana(imagen, nombre);
 
             }
         });
@@ -56,7 +56,7 @@ public class App extends AppCompatActivity {
         return lista;
     }
 
-    private void displayDialog(Bitmap imagen, String nombre) {
+    private void ventana(Bitmap imagen, String nombre) {
         Dialog d = new Dialog(this);
         d.setContentView(R.layout.zoom);
 
